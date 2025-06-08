@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://singular-meringue-100b8e.netlify.app/',
   credentials: true,
   optionsSuccessStatus: 200
 };
